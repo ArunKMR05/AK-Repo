@@ -6,9 +6,9 @@ pipeline {
         jdk 'JAVA_HOME'     // Set up your JDK here
     }
 
-    triggers {
-         githubPush()  // Trigger build on GitHub push
-     }
+    // triggers {
+    //      githubPush()  // Trigger build on GitHub push
+    //  }
 
     stages {
         stage('Checkout Dev Code') {
